@@ -1,5 +1,5 @@
 require_relative "../../lib/anecdotally"
-
+require 'ap'
 
 test = Anecdotally.new("4f947b4ebd8ad50e49000000")
 

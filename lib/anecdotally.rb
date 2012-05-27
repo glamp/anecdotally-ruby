@@ -1,7 +1,7 @@
-require_relative 'anecdotally/api'
-require_relative 'anecdotally/query/anecdotes'
-require_relative 'anecdotally/query/users'
-require_relative 'anecdotally/query/programs'
+require 'anecdotally/api'
+require 'anecdotally/query/anecdotes'
+require 'anecdotally/query/users'
+require 'anecdotally/query/programs'
 
 class Anecdotally
   def initialize(apikey)
