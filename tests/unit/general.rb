@@ -1,7 +1,7 @@
 require_relative "../../lib/anecdotally"
 require 'ap'
 
-test = Anecdotally.new("4f947b4ebd8ad50e49000000")
+test = Anecdotally.new("***YOUR API KEY HERE***")
 
 ap test.anecdotes.find_all()
 puts "*"*80
