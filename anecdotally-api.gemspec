@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = "anecdotally-api"
-  s.version     =  "0.2"
+  s.version     =  "0.3"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Greg Lamp"]
   s.email       = ["lamp.greg@gmail.com"]
