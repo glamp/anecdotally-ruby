@@ -3,7 +3,7 @@ require 'HTTParty'
 
 class API
   include HTTParty
-  base_uri 'anecdotal.ly/api'
+  base_uri 'api.anecdotal.ly'
   
   def initialize(apikey)
     @apikey = apikey
